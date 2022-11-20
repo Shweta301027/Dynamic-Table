@@ -1,21 +1,21 @@
-div{
+form{
     text-align: center;
     padding-top: 50px;
     height: 80px;
     background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-simple-watercolor-small-fresh-company-office-ppt-background-image_260237.jpg);
 }
-div input{
+form input{
     border-color: rgb(193, 40, 65);
     padding: 7px;
 }
-div button{
+form #btn{
     padding: 7px;
     color:crimson;
     background-color: pink;
     font-weight: bold;
     cursor: pointer;
 }
-div button:hover{
+form #btn:hover{
     color: white;
     box-shadow:1px 1px 5px 1px white;
 }
@@ -41,4 +41,14 @@ tbody{
 .remove button:hover{
     color: white;
     box-shadow:1px 1px 5px 1px white;
+}
+.success{
+    text-align: center;
+    font-size: 1.3rem;
+    color: blue;
+}
+.error{
+    text-align: center;
+    font-size: 1.3rem;
+    color: crimson;
 }

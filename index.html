@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+        <form>
     <input id="name" type="text" placeholder="Enter Name">
         <input id="email" type="email" placeholder="Enter Email">
         <input id="number" type="number" placeholder="Enter Phone Number">
-        <button id="btn">ADD TO TABLE</button>
-    </div>
+        <input id="btn" type="submit" name="" value="ADD TO TABLE">
+    </form>
+
         <table id="table"> 
             <thead>        
                 <tr>
@@ -28,6 +29,8 @@
     </tbody>
 
     </table>
+    <div class="error"></div>
+    <div class="success"></div>
     <script src="script.js"></script>
 </body>
 </html>
